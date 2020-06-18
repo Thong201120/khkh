@@ -24,7 +24,8 @@ namespace QL_NHASACH
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            errorProvider1.SetError()
+            errorProvider1.SetError(txtPassNew, "");
+            errorProvider1.SetError(txtConfirmPass, "")
         }
     }
 }
